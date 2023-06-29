@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teknik Informatika - Universitas Riau</title>
+
+    <!-- TITLE ICON START -->
+    <link rel="icon" type="image/png" href="Assets/img/logo-unri.png" />
+    <!-- TITLE ICON END -->
+    <!-- BOOTSTRAP CDN START -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP CDN END -->
+
+    <!-- CSS STYLE LINK START -->
+    <link rel="stylesheet" href="Style/index.css" />
+    <!-- CSS STYLE LINK END -->
+
+    <!-- ICON LINK START -->
+    <script
+      src="https://kit.fontawesome.com/63c55d61d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ICON LINK END -->
+
+    <!-- CSS POP UP MENU START -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/popupmenu.css">
+    <!-- CSS POP UP MENU START -->
+  </head>
+  <body>
+    <!-- HEADER START-->
+    <nav
+      class="navbar navbar-expand bg-grey border-bottom border-secondary d-none d-lg-block"
+    >
+      <div class="container justify-content-end">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://unri.ac.id/"
+              target="_blank"
+              >Universitas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://ft.unri.ac.id/"
+              target="_blank"
+              >Fakultas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://ee.ft.unri.ac.id/"
+              target="_blank"
+              >Jurusan</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Unduh Brosur</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://pmb.unri.ac.id/"
+              target="_blank"
+              >Pendaftaran</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav
+      class="container-fluid navbar navbar-expand-lg pt-1 pb-1 sticky-top bg-blue-ti"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Assets/img/new-header-logo-ti-white.png"
+            alt="logo-ti-3"
+            id="header-logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars fa-lg" style="color: #ffffff"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav fw-bold align-items-center">
+            <button class="btn btn-primary dropdown-toggle" onclick="window.location.href='index.html'" type="button">Beranda</button>
+            <div class="dropdown dropdown-hover">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Profile
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="visidanmisi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
+                <li><a class="dropdown-item" href="sasaran.html">Sasaran</a></li>
+                <li><a class="dropdown-item" href="strategi.html">Strategi</a></li>
+                <li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
+                <li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+                <li><a class="dropdown-item" href="tenagapendidik.html">Tenaga Kependidikan</a></li>
+                <li><a class="dropdown-item" href="lap-rpl.html">Lap. RPL</a></li>
+                <li><a class="dropdown-item" href="lap-jarkom.html">Lap. Jarkom</a></li>
+              </ul>
+            </div>
+          
+            <div class="dropdown dropdown-hover">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="akademikDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Akademik
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="akademikDropdown">
+                <li><a class="dropdown-item" href="kalender-akademik.html">Kalender Akademik</a></li>
+                <li><a class="dropdown-item" href="kurikulum.html">Kurikulum</a></li>
+                <li><a class="dropdown-item" href="jadwal-kuliah.html">Jadwal Kuliah</a></li>
+              </ul>
+            </div>
+          
+            <div class="dropdown dropdown-hover">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="galeriDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Galeri
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="galeriDropdown">
+                <li><a class="dropdown-item" href="foto.html">Foto</a></li>
+                <li><a class="dropdown-item" href="video.html">Video</a></li>
+                <li><a class="dropdown-item" href="virtual-tour.html">Virtual Tour</a></li>
+                <li><a class="dropdown-item" href="kontak.html">kontak</a></li>
+              </ul>
+            </div>
+            <button class="btn btn-primary dropdown-toggle" onclick="window.location.href='#'" type="button">TUK</button>
+            <div class="dropdown-search">
+              <input type="text" placeholder="Search">
+              <button class="btn btn-primary dropdown-toggle" type="button"><i class="fas fa-search search-icon"></i></button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- HEADER END -->
+
+    <!-- CAROUSEL START -->
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Assets/img/banner-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img/banner-2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img/banner-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/img/banner-4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- CAROUSEL END -->
+
+    <!-- BERITA & EVENT START -->
+    <section class="container pt-4 pb-4">
+      <h2 class="text-dark fw-bold mb-4">Berita & Event</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="post-1.html" class="w-100">
+            <div class="card text-bg-dark border-0">
+              <img src="Assets/img/post-1.jpg" class="card-img" alt="..." />
+              <div class="overlay rounded-2"></div>
+              <div class="card-img-overlay bg-transparent">
+                <h5 class="card-title">
+                  Ani Mardhatillah, mahasiswa Teknik Informatika Juara 1 lomba
+                  MTQ kecamatan
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="post-1.html" class="w-100">
+            <div class="card text-bg-dark border-0">
+              <img src="Assets/img/post-2.jpg" class="card-img" alt="..." />
+              <div class="overlay rounded-2"></div>
+              <div class="card-img-overlay bg-transparent">
+                <h5 class="card-title">
+                  Prof Azriyenni Guru Besar Teknik Elektro Pertama di Riau
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="post-1.html" class="w-100">
+            <div class="card text-bg-dark border-0">
+              <img src="Assets/img/post-3.jpg" class="card-img" alt="..." />
+              <div class="overlay rounded-2"></div>
+
+              <div class="card-img-overlay bg-transparent">
+                <h5 class="card-title">
+                  [EVENT] KULIAH UMUM : Data Analytics for Health Sector
+                </h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- BERITA & EVENT END -->
+
+    <!-- POSTER START -->
+    <!-- <section class="container pt-4 pb-4 vh-100">
+      <h2 class="text-dark fw-bold">Poster Mahasiswa</h2>
+    </section> -->
+    <!-- POSTER END -->
+
+    <!-- KEMITRAAN START -->
+    <section class="container pt-4 pb-4">
+      <h2 class="text-dark fw-bold mb-5">Kemitraan</h2>
+      <div class="row">
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-bps-1.jpg" alt="" / width="150">
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-cisco.jpg" alt="" / width="150" >
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-esri-1.jpg" alt="" / width="150">
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-kemenkominfo.jpg" alt="" / width="150">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-mikrotik.jpg" alt="" / width="150">
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-microsoft.jpg" alt="" / width="150" >
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-oracle.jpg" alt="" / width="150">
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-4">
+          <img src="Assets/img/logo-redhat-1.jpg" alt="" / width="150">
+        </div>
+      </div>
+    </section>
+    <!-- KEMITRAAN END -->
+
+    <!-- FOOTER START -->
+    <footer class="bg-grey">
+      <div class="container py-4 h-100">
+        <div class="row text-light h-100">
+          <div class="col-md-4 my-2">
+            <h5 class="mb-3">Kontak</h5>
+            <p class="">
+              Gedung C lantai 2 <br />
+              Fakultas Teknik Universitas Riau <br />
+              Kampus Binawidya <br />
+              Jl. HR Soebrantas KM. 12.5, <br />
+              Simpang Baru, Binawidya, <br />
+              Pekanbaru - 28293 <br />
+              E-mail: informatika@eng.unri.ac.id
+            </p>
+          </div>
+          <div class="col-md-4 my-2">
+            <h5>S1 Teknik Informatika</h5>
+            <div class="list-group list-group-flush">
+              <a
+                href=""
+                class="list-group-item list-group-item-action px-0 border-bottom bg-transparent text-light"
+                >Berita</a
+              >
+              <a
+                href=""
+                class="list-group-item list-group-item-action px-0 border-bottom bg-transparent text-light"
+                >Event</a
+              >
+              <a
+                href=""
+                class="list-group-item list-group-item-action px-0 border-bottom bg-transparent text-light"
+                >Poster Mahasiswa</a
+              >
+              <a
+                href=""
+                class="list-group-item list-group-item-action px-0 border-bottom bg-transparent text-light"
+                >Prestasi Mahasiswa</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center my-2"
+          >
+            <img src="Assets/img/akreditasi-ti-b.png" alt="akreditasi-ti-b" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- BOOTSTRAP SCRIPT START -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- BOOTSTRAP SCRIPT END -->
+  </body>
+</html>
